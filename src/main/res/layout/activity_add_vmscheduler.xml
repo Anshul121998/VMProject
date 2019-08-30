@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".AddDaataCenter">
+
+
+    <TextView
+        android:layout_marginTop="36sp"
+        android:layout_marginStart="8sp"
+        android:layout_marginEnd="8sp"
+        android:layout_marginBottom="28sp"
+        android:textSize="32sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/vmtextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add VM Scheduler" />
+
+    <EditText
+        android:layout_marginTop="16sp"
+        android:layout_marginStart="18sp"
+        android:layout_marginEnd="18sp"
+        android:layout_marginBottom="8sp"
+        android:id="@+id/vmeditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Host ID" />
+
+    <EditText
+        android:layout_marginTop="16sp"
+        android:layout_marginStart="18sp"
+        android:layout_marginEnd="18sp"
+        android:layout_marginBottom="8sp"
+        android:id="@+id/vmeditText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Bandwidth" />
+
+
+    <EditText
+        android:layout_marginTop="16sp"
+        android:layout_marginStart="18sp"
+        android:layout_marginEnd="18sp"
+        android:layout_marginBottom="8sp"
+        android:id="@+id/vmeditText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Total Storage" />
+
+    <EditText
+        android:layout_marginTop="16sp"
+        android:layout_marginStart="18sp"
+        android:layout_marginEnd="18sp"
+        android:layout_marginBottom="8sp"
+        android:id="@+id/vmeditText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Total RAM"/>
+
+    <Button
+        android:layout_marginTop="16sp"
+        android:layout_marginStart="8sp"
+        android:layout_marginEnd="8sp"
+        android:layout_marginBottom="8sp"
+        android:textSize="18sp"
+        android:id="@+id/vmbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add VM Scheduler" />
+</LinearLayout>

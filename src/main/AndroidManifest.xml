@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="sideproj.anshul.shammo.com.vmproject">
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@drawable/vm_generator"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/vm_generator"
+        android:supportsRtl="true"
+        tools:ignore="GoogleAppIndexingWarning"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ProcessDetail"
+            android:label="Process"/>
+        <activity android:name=".AddProcess"
+            android:label="Process"/>
+        <activity android:name=".ProcessMainPage"
+            android:label="Process"/>
+        <activity
+            android:name=".VMTableDetails"
+            android:label="VM Table" />
+        <activity
+            android:name=".AddVMTable"
+            android:label="VM Table" />
+        <activity
+            android:name=".VMTableMainPage"
+            android:label="VM Table" />
+        <activity
+            android:name=".VMSchedulerDetails"
+            android:label="VM Scheduler" />
+        <activity
+            android:name=".AddVMScheduler"
+            android:label="VM Scheduler" />
+        <activity
+            android:name=".VMSchedulerHostMainPage"
+            android:label="VM Scheduler" />
+        <activity
+            android:name=".DataCenterDetails"
+            android:label="DataCenter" />
+        <activity
+            android:name=".AddDaataCenter"
+            android:label="DataCenter" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="DataCenter" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
